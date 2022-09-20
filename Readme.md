@@ -73,8 +73,7 @@ Para criar a estrutura base do HTML no Visual Studio Code, você pode digitar `!
 </html>
 ````
 
-Lembre-se de dar um título para o documento usando a tag <title> 
-<title>Glossário</title>
+Lembre-se de dar um título para o documento usando a tag <title>: `<title>Glossário</title>`
 
 ##### Criando uma lista de descrição
 
