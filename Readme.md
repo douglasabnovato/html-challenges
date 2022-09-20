@@ -88,6 +88,8 @@ Lembre-se de dar um título para o documento usando a tag <title>
 
 Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaixo. 
 
+![html glossário](./.github/html-glossario.png)
+
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima.
 
 #### 📅 2.
