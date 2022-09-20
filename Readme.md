@@ -91,10 +91,6 @@ Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaix
 
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima.
 
-##### Tarefas Extras
-
-- [x] Favicon
-
 #### 📅 2. Formulário de contato
 
 ##### Sobre o desafio
@@ -160,10 +156,9 @@ Lembrando que as imagens e textos abaixo são ilustrativos e você pode adiciona
 
 #### 📅 Tarefas
 
-- [ ] Organizando os detalhes do projeto no readme.md
-- [ ] Uma branch main e uma developer
-- [ ] Favicon
-- [ ] Cor do ícone
+- [x] Organizando os detalhes do projeto no readme.md
+- [x] Uma branch main e uma developer
+- [x] Favicon
 - [ ] [Learn Responsive Design](https://web.dev/learn/design/)
 - [ ] [Learn CSS](https://web.dev/learn/css/)
 
