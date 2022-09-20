@@ -78,26 +78,11 @@ Lembre-se de dar um título para o documento usando a tag <title>
 
 ##### Criando uma lista de descrição
 
-- Adicione um título para a página
+❓ [Adicione um título para a página](https://app.rocketseat.com.br/node/o-guia-estelar-de-html/group/trabalhando-com-elementos/lesson/titulos-e-paragrafos)
+
+❓ Para criar o glossário, você deve usar uma [lista de descrição](https://app.rocketseat.com.br/node/o-guia-estelar-de-html/group/trabalhando-com-elementos/lesson/lista-de-descricao) (`<dl>`)
     
-    <aside>
-    ❓
-    
-    [](https://app.rocketseat.com.br/node/o-guia-estelar-de-html/group/trabalhando-com-elementos/lesson/titulos-e-paragrafos)
-    
-    </aside>
-    
-- Para criar o glossário, você deve usar uma lista de descrição (`<dl>`)
-    
-    <aside>
-    ❓ Veja mais sobre lista de descrição
-    
-    [](https://app.rocketseat.com.br/node/o-guia-estelar-de-html/group/trabalhando-com-elementos/lesson/lista-de-descricao)
-    
-    </aside>
-    
-- O termo da descrição deve estar em **negrito**
-    - Bônus: o termo da descrição pode ser um link que leva para a documentação sobre o elemento HTML
+❓ O termo da descrição deve estar em **negrito**. Bônus: o termo da descrição pode ser um link que leva para a documentação sobre o elemento HTML
 
 ##### Como deve ficar a página ao final?
 
