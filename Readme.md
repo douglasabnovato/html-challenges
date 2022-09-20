@@ -321,7 +321,7 @@ Então, bora codar! 👨‍💻👩‍💻
 
 ❓ Imagens no [HTML](https://app.rocketseat.com.br/node/posso-ver-e-ouvir-o-html/group/images/lesson/images)
 
-❓ Sites onde você pode encontrar imagens grátis para usar nos seus projetos: Unsplash, Pexels, Pixabay.
+❓ Sites onde você pode encontrar imagens grátis para usar nos seus projetos: [Unsplash](https://unsplash.com/), [Pexels](https://www.pexels.com/pt-br/), [Pixabay](https://pixabay.com/pt/).
 
 - Adicione uma [citação](https://app.rocketseat.com.br/node/o-guia-estelar-de-html/group/trabalhando-com-elementos/lesson/citacoes)
 

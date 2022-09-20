@@ -8,6 +8,7 @@
     <link rel="manifest" href="./public/manifest.json" />
     <title>HTML Challenges</title>
     <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
       * {
         margin: 0;
         padding: 0;
@@ -15,6 +16,7 @@
       }
 
       body {
+        font-family: "Roboto", sans-serif;
         background: rgba(216, 211, 211, 0.952);
       }
 
@@ -74,12 +76,74 @@
         padding: 15px 5px;
       }
 
-      .minha-lista input{
+      .minha-lista input {
         margin-right: 8px;
       }
 
       .container hr {
         margin: 15px 0;
+      }
+
+      .blog-post {
+        width: 55%;
+        margin: 0 auto;
+      }
+
+      .blog-post a {
+        cursor: pointer;
+      }
+
+      .blog-post header {
+        padding: 60px;
+        text-align: center;
+        background: #1abc9c;
+        color: white;
+        font-size: 30px;
+      }
+
+      .blog-post .menu {
+        padding: 50px 10px 5px 10px;
+      }
+
+      .blog-post .menu a {
+        float: center;
+        color: black;
+        text-align: center;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 25px;
+        border-radius: 4px;
+      }
+
+      .blog-post .menu a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      .blog-post .menu a.active {
+        background-color: dodgerblue;
+        color: white;
+      }
+
+      .blog-post .home {
+        background-color: rgb(252, 219, 239);
+        height: 100vh;
+      }
+
+      .blog-post .sobre {
+        background-color: rgb(241, 212, 177);
+        height: 100vh;
+      }
+
+      .blog-post .contato {
+        background-color: rgb(220, 243, 194);
+        height: 100vh;
+      }
+
+      .blog-post .posts {
+        background-color: rgb(204, 218, 247);
+        height: 100vh;
       }
     </style>
   </head>
@@ -90,7 +154,7 @@
     <main>
       <div class="container">
         <h2>Glossário</h2>
-        <hr>
+        <hr />
         <dl>
           <dt>
             <a
@@ -115,8 +179,8 @@
         </dl>
       </div>
       <div class="container">
-        <h2>Formulário de Contato</h2>        
-        <hr>
+        <h2>Formulário de Contato</h2>
+        <hr />
         <form>
           <fieldset>
             <legend>Entre em contato</legend>
@@ -165,98 +229,429 @@
       </div>
       <div class="container">
         <h2>Minha lista to-do 2022</h2>
-        <hr>
-        <ul class="minha-lista" style="list-style:none;">
-            <li><input type="checkbox" checked>projetos</li>
-            <li><input type="checkbox">vaga dev</li>
-            <li><input type="checkbox">ensino superior</li>
-            <li><input type="checkbox">inglês</li>
-            <li><input type="checkbox">certificação javascript/reactjs</li>
+        <hr />
+        <ul class="minha-lista" style="list-style: none">
+          <li><input type="checkbox" checked />projetos</li>
+          <li><input type="checkbox" />vaga dev</li>
+          <li><input type="checkbox" />ensino superior</li>
+          <li><input type="checkbox" />inglês</li>
+          <li><input type="checkbox" />certificação javascript/reactjs</li>
         </ul>
       </div>
       <div class="container">
         <h2>Quiz</h2>
-        <hr>
+        <hr />
         <ol>
-            <li>
-              <h3>1 - What does HTML stand for?</h3>
-              <div>
-                <input type="radio" name="question-1" id="question-1-a" value="A" />
-                <label for="question-1-a">A) Hyperlinks and text markup language</label>
-              </div>
-              <div>
-                <input type="radio" name="question-1" id="question-1-b" value="B" />
-                <label for="question-1-b">B) home tool markup language</label>
-              </div>
-              <div>
-                <input type="radio" name="question-1" id="question-1-c" value="C" />
-                <label for="question-1-c">C) hyper text markup language</label>
-              </div>
-              <div>
-                <input type="radio" name="question-1" id="question-1-d" value="D" />
-                <label for="question-1-d">D) Hyper tool markup links</label>
-              </div>
-            </li>
-            <li>
-                <h3>2 - Who is making the Web standards?</h3>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-a" value="A" />
-                  <label for="question-1-a">A) Google</label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-b" value="B" />
-                  <label for="question-1-b">B) The World wide web consortium</label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-c" value="C" />
-                  <label for="question-1-c">C) Mozilla</label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-d" value="D" />
-                  <label for="question-1-d">D) Microsoft</label>
-                </div>
-              </li>
-              <li>
-                <h3>3 - Choose the correct HTML element for the largest heading:</h3>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-a" value="A" />
-                  <label for="question-1-a">A) < h6 > </label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-b" value="B" />
-                  <label for="question-1-b">B) < h1 > </label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-c" value="C" />
-                  <label for="question-1-c">C) < head > </label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-d" value="D" />
-                  <label for="question-1-d">D) < heading > </label>
-                </div>
-              </li>
-              <li>
-                <h3>4 - What is the correct HTML element for inserting a line break?</h3>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-a" value="A" />
-                  <label for="question-1-a">A)  < br > </label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-b" value="B" />
-                  <label for="question-1-b">B)  < break > </label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-c" value="C" />
-                  <label for="question-1-c">C)  < lb> </label>
-                </div>
-                <div>
-                  <input type="radio" name="question-1" id="question-1-d" value="D" />
-                  <label for="question-1-d">D)  < bk > </label>
-                </div>
-              </li>
-          </ol>
+          <li>
+            <h3>1 - What does HTML stand for?</h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a"
+                >A) Hyperlinks and text markup language</label
+              >
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) home tool markup language</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) hyper text markup language</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) Hyper tool markup links</label>
+            </div>
+          </li>
+          <li>
+            <h3>2 - Who is making the Web standards?</h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) Google</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) The World wide web consortium</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) Mozilla</label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) Microsoft</label>
+            </div>
+          </li>
+          <li>
+            <h3>
+              3 - Choose the correct HTML element for the largest heading:
+            </h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) < h6 > </label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) < h1 > </label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) < head > </label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) < heading > </label>
+            </div>
+          </li>
+          <li>
+            <h3>
+              4 - What is the correct HTML element for inserting a line break?
+            </h3>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-a"
+                value="A"
+              />
+              <label for="question-1-a">A) < br > </label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-b"
+                value="B"
+              />
+              <label for="question-1-b">B) < break > </label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-c"
+                value="C"
+              />
+              <label for="question-1-c">C) < lb> </label>
+            </div>
+            <div>
+              <input
+                type="radio"
+                name="question-1"
+                id="question-1-d"
+                value="D"
+              />
+              <label for="question-1-d">D) < bk > </label>
+            </div>
+          </li>
+        </ol>
       </div>
     </main>
+    <section class="blog-post">
+      <header>
+        <h1><b>Blog Post</b></h1>
+        <div class="menu">
+          <a href="#home">Home</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+          <a href="#posts">Posts</a>
+        </div>
+      </header>
+      <div id="home" class="home">
+        <h2>Home</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div id="sobre" class="sobre">
+        <h2>Sobre</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div id="contato" class="contato">
+        <h2>Contato</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <article id="posts" class="posts">
+        <h2>Setup 1</h2>
+        <img style="width: 400px" src="./assets/setup-1.jpeg" alt="setup-1" />
+        <hr />
+        <dl>
+          <dt>
+            <b>Um setup para programar</b>
+          </dt>
+          <dd>é usar um processador core i5 ou i7</dd>
+          <dd>é o monitor LG LED 25″ Full HD</dd>
+          <dd>é um fone</dd>
+          <dd>é uma cadeira</dd>
+        </dl>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <aside>
+          <p>data da postagem</p>
+          <p>uma imagem do autor</p>
+          <p>nome do autor</p>
+          <p>um pequeno texto sobre o autor</p>
+        </aside>
+      </article>
+      <article id="posts" class="posts">
+        <h2>Setup 2</h2>
+        <img style="width: 400px" src="./assets/setup-2.jpeg" alt="setup-2" />
+        <hr />
+        <dl>
+          <dt>
+            <b>Um setup para programar</b>
+          </dt>
+          <dd>é usar um processador core i5 ou i7</dd>
+          <dd>é o monitor LG LED 25″ Full HD</dd>
+          <dd>é um fone</dd>
+          <dd>é uma cadeira</dd>
+        </dl>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <aside>
+          <p>data da postagem</p>
+          <p>uma imagem do autor</p>
+          <p>nome do autor</p>
+          <p>um pequeno texto sobre o autor</p>
+        </aside>
+      </article>
+      <article id="posts" class="posts">
+        <h2>Setup 3</h2>
+        <img style="width: 400px" src="./assets/setup-3.jpeg" alt="setup-3" />
+        <hr />
+        <dl>
+          <dt>
+            <b>Um setup para programar</b>
+          </dt>
+          <dd>é usar um processador core i5 ou i7</dd>
+          <dd>é o monitor LG LED 25″ Full HD</dd>
+          <dd>é um fone</dd>
+          <dd>é uma cadeira</dd>
+        </dl>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+        <aside>
+          <p>data da postagem</p>
+          <p>uma imagem do autor</p>
+          <p>nome do autor</p>
+          <p>um pequeno texto sobre o autor</p>
+        </aside>
+      </article>
+    </section>
     <script>
       function enviarAlerta() {
         alert("Você clicou no botão Enviar");
