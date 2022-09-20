@@ -4,26 +4,53 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./public/favicon.ico" type="image/x-icon">
+    <link rel="manifest" href="./public/manifest.json">
     <title>Glossário</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background: rgba(216, 211, 211, 0.952);
+      }
+
+      main {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    </style>
   </head>
   <body>
-    <h1>HTML Challenges</h1>
-
-    <h2>Glossário</h2>
-
-    <dl>
-      <dt>
-        <a
-          target="_blank"
-          href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
-        >
-        Hypertext</a>
-      </dt>
-      <dd>É um hiper texto com possibilidades...</dd>
-      <dt>Markupt</dt>
-      <dd>Marcação do texto...</dd>
-      <dt>Language</dt>
-      <dd>Linguagem com sua semântica e sintaxe...</dd>
-    </dl>
+    <main>
+      <div class="container">
+        <h1>HTML Challenges</h1>
+        <h2>Glossário</h2>
+        <dl>
+          <dt>
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
+              style="text-decoration: none"
+            >
+              <b>Hypertext</b></a
+            >
+          </dt>
+          <dd>É um hiper texto com possibilidades...</dd>
+          <dt>Markupt</dt>
+          <dd>Marcação do texto...</dd>
+          <dt>Language</dt>
+          <dd>Linguagem com sua semântica e sintaxe...</dd>
+        </dl>
+      </div>
+    </main>
   </body>
 </html>

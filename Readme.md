@@ -91,6 +91,10 @@ Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaix
 
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima.
 
+##### Tarefas Extras
+
+- [x] Favicon
+
 #### 📅 2.
 
 - detalhes
