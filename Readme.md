@@ -159,8 +159,8 @@ Lembrando que as imagens e textos abaixo são ilustrativos e você pode adiciona
 - [x] Organizando os detalhes do projeto no readme.md
 - [x] Uma branch main e uma developer
 - [x] Favicon
-- [ ] [Learn Responsive Design](https://web.dev/learn/design/)
-- [ ] [Learn CSS](https://web.dev/learn/css/)
+- [x] [Learn Responsive Design](https://web.dev/learn/design/)
+- [x] [Learn CSS](https://web.dev/learn/css/)
 
 #### 📅 Telas
 
