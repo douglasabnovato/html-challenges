@@ -49,20 +49,20 @@
         width: 100%;
       }
 
-      .container form .input-checkbox{
+      .container form .input-checkbox {
         width: 10px;
       }
 
-      .container form select{
+      .container form select {
         width: 100%;
         cursor: pointer;
       }
 
-      .container form textarea{
+      .container form textarea {
         width: 100%;
         cursor: pointer;
       }
-      
+
       .container form label,
       .container form select,
       .container form textarea,
@@ -72,6 +72,14 @@
       .container form input {
         margin: 5px 0;
         padding: 15px 5px;
+      }
+
+      .minha-lista input{
+        margin-right: 8px;
+      }
+
+      .container hr {
+        margin: 15px 0;
       }
     </style>
   </head>
@@ -153,11 +161,22 @@
           </fieldset>
         </form>
       </div>
+      <div class="container">
+        <h2>Minha lista to-do 2022</h2>
+        <hr>
+        <ul class="minha-lista" style="list-style:none;">
+            <li><input type="checkbox">projetos</li>
+            <li><input type="checkbox">vaga dev</li>
+            <li><input type="checkbox">ensino superior</li>
+            <li><input type="checkbox">inglês</li>
+            <li><input type="checkbox">certificação javascript/reactjs</li>
+        </ul>
+      </div>
     </main>
     <script>
-        function enviarAlerta(){
-            alert("Você clicou no botão Enviar")
-        }
+      function enviarAlerta() {
+        alert("Você clicou no botão Enviar");
+      }
     </script>
   </body>
 </html>
