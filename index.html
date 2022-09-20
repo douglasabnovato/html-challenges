@@ -131,7 +131,7 @@
 
       .blog-post .posts {
         background-color: rgb(204, 218, 247);
-        height: 100vh;
+        height: 130vh;
       }
 
       .header {
@@ -168,6 +168,21 @@
       .header-right {
         float: right;
       }
+
+      .container-image {
+        position: relative;
+        font-family: Arial;
+      }
+
+      .text-block {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
     </style>
   </head>
   <body>
@@ -183,11 +198,11 @@
       </header>
       <div id="home" class="home">
         <div class="header">
-            <a href="#default" class="logo"><h2>Home</h2></a>
-            <div class="header-right">
-              <a href="#top">top</a>
-            </div>
+          <a href="#default" class="logo"><h2>Home</h2></a>
+          <div class="header-right">
+            <a href="#top">top</a>
           </div>
+        </div>
         <hr />
         <div class="container">
           <p>
@@ -427,13 +442,13 @@
       </div>
       <div id="sobre" class="sobre">
         <div class="header">
-            <a href="#default" class="logo"><h2>Sobre</h2></a>
-            <div class="header-right">
-              <a href="#top">top</a>
-            </div>
+          <a href="#default" class="logo"><h2>Sobre</h2></a>
+          <div class="header-right">
+            <a href="#top">top</a>
           </div>
+        </div>
         <hr />
-        <div class="container">            
+        <div class="container">
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -460,11 +475,11 @@
       </div>
       <div id="contato" class="contato">
         <div class="header">
-            <a href="#default" class="logo"><h2>Contato</h2></a>
-            <div class="header-right">
-              <a href="#top">top</a>
-            </div>
+          <a href="#default" class="logo"><h2>Contato</h2></a>
+          <div class="header-right">
+            <a href="#top">top</a>
           </div>
+        </div>
         <hr />
         <div class="container">
           <form>
@@ -527,16 +542,24 @@
           </div>
         </div>
         <hr />
-        <img style="width: 400px" src="./assets/setup-1.jpeg" alt="setup-1" />
-        <dl>
-          <dt>
-            <b>Um setup para programar</b>
-          </dt>
-          <dd>é usar um processador core i5 ou i7</dd>
-          <dd>é o monitor LG LED 25″ Full HD</dd>
-          <dd>é um fone</dd>
-          <dd>é uma cadeira</dd>
-        </dl>
+        <div class="container-image">
+            <img
+              src="./assets/setup-1.jpeg"
+              alt="setup-1"
+              style="width: 100%"
+            />
+            <div class="text-block">
+              <dl>
+                <dt>
+                  <b><h4>Um setup para programar</h4></b>
+                </dt>
+                <dd>é usar um processador core i5 ou i7</dd>
+                <dd>é o monitor LG LED 25″ Full HD</dd>
+                <dd>é um fone</dd>
+                <dd>é uma cadeira</dd>
+              </dl>
+            </div>
+          </div>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -585,16 +608,24 @@
           </div>
         </div>
         <hr />
-        <img style="width: 400px" src="./assets/setup-2.jpeg" alt="setup-2" />
-        <dl>
-          <dt>
-            <b>Um setup para programar</b>
-          </dt>
-          <dd>é usar um processador core i5 ou i7</dd>
-          <dd>é o monitor LG LED 25″ Full HD</dd>
-          <dd>é um fone</dd>
-          <dd>é uma cadeira</dd>
-        </dl>
+        <div class="container-image">
+          <img
+            src="./assets/setup-2.jpeg"
+            alt="setup-2"
+            style="width: 100%"
+          />
+          <div class="text-block">
+            <dl>
+              <dt>
+                <b><h4>Um setup para programar</h4></b>
+              </dt>
+              <dd>é usar um processador core i5 ou i7</dd>
+              <dd>é o monitor LG LED 25″ Full HD</dd>
+              <dd>é um fone</dd>
+              <dd>é uma cadeira</dd>
+            </dl>
+          </div>
+        </div>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
@@ -643,16 +674,24 @@
           </div>
         </div>
         <hr />
-        <img style="width: 400px" src="./assets/setup-3.jpeg" alt="setup-3" />
-        <dl>
-          <dt>
-            <b>Um setup para programar</b>
-          </dt>
-          <dd>é usar um processador core i5 ou i7</dd>
-          <dd>é o monitor LG LED 25″ Full HD</dd>
-          <dd>é um fone</dd>
-          <dd>é uma cadeira</dd>
-        </dl>
+        <div class="container-image">
+            <img
+              src="./assets/setup-3.jpeg"
+              alt="setup-3"
+              style="width: 100%"
+            />
+            <div class="text-block">
+              <dl>
+                <dt>
+                  <b><h4>Um setup para programar</h4></b>
+                </dt>
+                <dd>é usar um processador core i5 ou i7</dd>
+                <dd>é o monitor LG LED 25″ Full HD</dd>
+                <dd>é um fone</dd>
+                <dd>é uma cadeira</dd>
+              </dl>
+            </div>
+          </div>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry. Lorem Ipsum has been the industry's standard dummy text ever
