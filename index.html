@@ -18,26 +18,68 @@
         background: rgba(216, 211, 211, 0.952);
       }
 
+      .head {
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+      }
+
       main {
         display: flex;
         justify-content: center;
         height: 100vh;
       }
 
-      .head {
+      .container {
         padding: 15px;
       }
 
-      .container {
+      .container form {
+        margin: 5px 0;
         padding: 15px;
+        width: 350px;
+      }
+
+      .container form input {
+        width: 100%;
+        cursor: pointer;
+      }
+
+      .container form label {
+        width: 100%;
+      }
+
+      .container form .input-checkbox{
+        width: 10px;
+      }
+
+      .container form select{
+        width: 100%;
+        cursor: pointer;
+      }
+
+      .container form textarea{
+        width: 100%;
+        cursor: pointer;
+      }
+      
+      .container form label,
+      .container form select,
+      .container form textarea,
+      .container form .input-submit,
+      .container form .input-checkbox,
+      .container form .input-message,
+      .container form input {
+        margin: 5px 0;
+        padding: 15px 5px;
       }
     </style>
   </head>
   <body>
+    <div class="head">
+      <h1>HTML Challenges</h1>
+    </div>
     <main>
-      <div class="head">
-        <h1>HTML Challenges</h1>
-      </div>
       <div class="container">
         <h2>Glossário</h2>
         <dl>
@@ -47,37 +89,68 @@
               href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
               style="text-decoration: none"
             >
-              <b>Hypertext</b></a
+              <b>Um programador</b></a
             >
           </dt>
-          <dd>É um hiper texto com possibilidades...</dd>
-          <dt>Markupt</dt>
-          <dd>Marcação do texto...</dd>
-          <dt>Language</dt>
-          <dd>Linguagem com sua semântica e sintaxe...</dd>
+          <dd>E mais uma vez meu código não compila</dd>
+          <dd>Começo a perder a inspiração</dd>
+          <dd>Será que está nessa ou em outra linha?</dd>
+          <dd>Será que resolvo esse erro se eu reler a documentação?</dd>
+          <dt><b>Um escritor de código</b></dt>
+          <dd>Olho linha a linha, procurando de forma constante</dd>
+          <dd>E cansado de tanto procurar</dd>
+          <dd>Percebo num instante</dd>
+          <dd>
+            O erro no meu código era apenas uma vírgula que esqueci de colocar
+          </dd>
         </dl>
-      </div>
-      <div class="head">
-        <h1>HTML Challenges</h1>
       </div>
       <div class="container">
-        <h2>Contato</h2>
-        <dl>
-          <dt>
-            <a
-              target="_blank"
-              href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element"
-              style="text-decoration: none"
-            >
-              <b>Hypertext</b></a
-            >
-          </dt>
-          <dd>É um hiper texto com possibilidades...</dd>
-          <dt>Markupt</dt>
-          <dd>Marcação do texto...</dd>
-          <dt>Language</dt>
-          <dd>Linguagem com sua semântica e sintaxe...</dd>
-        </dl>
+        <h2>Formulário de Contato</h2>
+        <form>
+          <fieldset>
+            <legend>Entre em contato</legend>
+            <label for="subject">Assunto do contato:</label>
+            <select name="subject" id="subject">
+              <option value="support">Suporte</option>
+              <option value="suggestion">Sugestão</option>
+              <option value="complaint">Reclamação</option>
+              <option value="opportunity">Oportunidade</option></select
+            ><br />
+            <label for="name">Nome:</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Seu nome"
+            /><br />
+            <label for="e-mail">E-mail:</label>
+            <input
+              type="e-mail"
+              name="e-mail"
+              id="e-mail"
+              placeholder="email@seudominio.com"
+            /><br />
+            <label class="input-message" for="message">Mensagem:</label><br />
+            <textarea name="message" id="message" cols="30" rows="10"></textarea
+            ><br />
+            <input
+              class="input-checkbox"
+              type="checkbox"
+              name="news"
+              id="news"
+            />
+            <label for="news">Aceito receber novidades por e-mail</label>
+            <br />
+            <input
+              class="input-submit"
+              type="button"
+              value="Enviar"
+              name="submit"
+              id="submit"
+            />
+          </fieldset>
+        </form>
       </div>
     </main>
   </body>
