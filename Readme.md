@@ -188,7 +188,7 @@ Ao finalizar o desafio você vai ter um resultado parecido com o da imagem abaix
 
 Lembrando que as imagens e textos abaixo são ilustrativos e você pode adicionar seu próprio conteúdo conforme as instruções acima.
  
-#### 📅 4.
+#### 📅 4. Lista de Compras
 
 ##### Sobre o desafio
 
