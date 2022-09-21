@@ -3,7 +3,7 @@
 </h4>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#html-challenge" src="./.github/tela-1.jpg">
+  <img alt="versão 1 do projeto" title="#html-challenge" src="./.github/tela-desktop-1.jpg">
 </p>  
 
 ### 💻 Sobre o desafio
@@ -40,7 +40,7 @@ O conteúdo esclarece plugin de preview HTML, tags, atributos, semântica, lista
 - [x] 2. [Formulário de contato](https://efficient-sloth-d85.notion.site/2-Formul-rio-de-contato-7bb047fc602f48a1859e02882ddd547b)
 - [x] 3. [Lista de Compras](https://efficient-sloth-d85.notion.site/3-Lista-de-compras-91ff11e5af754cb48b51ff56e272a89d)
 - [x] 4. [Quiz](https://efficient-sloth-d85.notion.site/4-Quiz-46ee27c74c00436db6368b3855ee7dbc)
-- [ ] 5. [Blog Post](https://efficient-sloth-d85.notion.site/5-Blog-Post-46d74c84a63c4e628739cc8a4fa7898f)
+- [x] 5. [Blog Post](https://efficient-sloth-d85.notion.site/5-Blog-Post-46d74c84a63c4e628739cc8a4fa7898f)
 
 ### 📅 Entregas
 
@@ -346,22 +346,18 @@ Lembrando que as imagens e textos abaixo são ilustrativos e você pode adiciona
 - [x] Organizando os detalhes do projeto no readme.md
 - [x] Uma branch main e uma developer
 - [x] Favicon
-- [x] [Learn Responsive Design](https://web.dev/learn/design/)
-- [x] [Learn CSS](https://web.dev/learn/css/)
+- [ ] [Learn Responsive Design](https://web.dev/learn/design/)
+- [ ] [Learn CSS](https://web.dev/learn/css/)
 
 #### 📅 Telas
 
 - Desktop
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/tela-1.jpg" width="400px">
-</p>  
-
-- Mobile
-
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1 do projeto" title="#Portfolio" src="./.github/tela-2.jpg" height="400px">
-</p>  
+  <img alt="versão 1 do projeto" title="#html-challenges" src="./.github/tela-desktop-1.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#html-challenges" src="./.github/tela-desktop-2.jpg" width="400px">
+  <img alt="versão 1 do projeto" title="#html-challenges" src="./.github/tela-desktop-3.jpg" width="400px">
+</p> 
 
 Feito com ❤️ por Douglas A B Novato. 👋🏽 [Entre em contato!](https://www.linkedin.com/in/douglasabnovato/)
  

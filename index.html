@@ -20,18 +20,21 @@
         background: rgba(216, 211, 211, 0.952);
       }
 
-      p {
-        margin: 10px 30px;
-      }
-
       .container {
         padding: 15px;
       }
 
+      .container p {
+        margin: 10px 30px;
+      }
+
       .container form {
-        margin: 5px 0;
-        padding: 15px;
-        width: 350px;
+        padding: 35px 0;
+        width: 400px;
+      }
+
+      .container form fieldset {
+        padding: 25px 15px;
       }
 
       .container form input {
@@ -47,7 +50,7 @@
         width: 10px;
       }
 
-      .container form select {
+      .container form fieldset select {
         width: 100%;
         cursor: pointer;
       }
@@ -121,21 +124,31 @@
       .blog-post .home {
         background-color: rgb(252, 219, 239);
         height: 200vh;
+        margin: 0 auto;
       }
 
       .blog-post .sobre {
         background-color: rgb(241, 212, 177);
         height: 100vh;
+        margin: 0 auto;
       }
 
       .blog-post .contato {
         background-color: rgb(220, 243, 194);
         height: 100vh;
+        margin: 0 auto;
+      }
+
+      .blog-post .contato form {
+        background-color: rgb(220, 243, 194);
+        height: 100vh;
+        margin: 0 auto;
       }
 
       .blog-post .posts {
         background-color: rgb(204, 218, 247);
-        height: 130vh;
+        height: 150vh;
+        margin: 0 auto;
       }
 
       .header {
@@ -189,10 +202,10 @@
       }
 
       .post {
-        border: 5px dotted #bbb;
+        border: 5px solid #bbb;
         width: 80%;
         border-radius: 15px;
-        margin: 0 auto;
+        margin: 10px 90px 0;
         max-width: 600px;
       }
 
@@ -201,9 +214,22 @@
         background-color: #f1f1f1;
       }
 
+      .container-autor p {
+        padding: 8px 16px;
+      }
+
+      .container-autor-title {
+        padding: 8px 15px;
+        background-color: #f1f1f1;
+      }
+
+      .container-autor-image {
+        padding: 8px 15px;
+      }
+
       .postagem {
         background: #ccc;
-        padding: 3px;
+        padding: 7px;
       }
     </style>
   </head>
@@ -249,7 +275,6 @@
             and more recently with desktop publishing software like Aldus
             PageMaker including versions of Lorem Ipsum.
           </p>
-
           <div class="container">
             <h2>Glossário</h2>
             <hr />
@@ -618,13 +643,13 @@
             <div class="container-autor">
               <h2>O melhor setup</h2>
             </div>
-
-            <img
-              src="https://avatars.githubusercontent.com/u/14242834?v=4"
-              alt="Avatar"
-              style="width: 20%"
-            />
-
+            <div class="container-autor-image">
+              <img
+                src="https://avatars.githubusercontent.com/u/14242834?v=4"
+                alt="Avatar"
+                style="width: 20%"
+              />
+            </div>
             <div class="container-autor" style="background-color: white">
               <h3><b>Douglas Novato</b></h3>
               <p>
@@ -632,8 +657,7 @@
                 melhores formas de ux e ui.
               </p>
             </div>
-
-            <div class="container-autor">
+            <div class="container-autor-title">
               <p>Postagem: <span class="postagem">20/09/2022</span></p>
             </div>
           </div>
@@ -701,13 +725,13 @@
             <div class="container-autor">
               <h2>O melhor setup</h2>
             </div>
-
-            <img
-              src="https://avatars.githubusercontent.com/u/14242834?v=4"
-              alt="Avatar"
-              style="width: 20%"
-            />
-
+            <div class="container-autor-image">
+              <img
+                src="https://avatars.githubusercontent.com/u/14242834?v=4"
+                alt="Avatar"
+                style="width: 20%"
+              />
+            </div>
             <div class="container-autor" style="background-color: white">
               <h3><b>Douglas Novato</b></h3>
               <p>
@@ -715,8 +739,7 @@
                 melhores formas de ux e ui.
               </p>
             </div>
-
-            <div class="container-autor">
+            <div class="container-autor-title">
               <p>Postagem: <span class="postagem">20/09/2022</span></p>
             </div>
           </div>
@@ -784,11 +807,13 @@
             <div class="container-autor">
               <h2>O melhor setup</h2>
             </div>
-            <img
-              src="https://avatars.githubusercontent.com/u/14242834?v=4"
-              alt="Avatar"
-              style="width: 20%"
-            />
+            <div class="container-autor-image">
+              <img
+                src="https://avatars.githubusercontent.com/u/14242834?v=4"
+                alt="Avatar"
+                style="width: 20%"
+              />
+            </div>
             <div class="container-autor" style="background-color: white">
               <h3><b>Douglas Novato</b></h3>
               <p>
@@ -796,8 +821,7 @@
                 melhores formas de ux e ui.
               </p>
             </div>
-
-            <div class="container-autor">
+            <div class="container-autor-title">
               <p>Postagem: <span class="postagem">20/09/2022</span></p>
             </div>
           </div>
